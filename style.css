@@ -15,7 +15,9 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #E09809;
-    border: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
 }
 
 .introducao img{
@@ -24,14 +26,15 @@ body{
     border: 6px dashed black;
 }
 
-.introducao > p {
+
+.txt {
     line-height: 38px;
-    text-align: center;
+    text-align: justify;
     padding: 20px;
     font-size: 20px;
 }
 
-.introducao span{
+span{
     color: white;
     text-shadow: 2px 2px 2px black;
 }
@@ -51,7 +54,9 @@ body{
 
 .gallery{
     background-color: #E09809;
-    border: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
 }
 
 .carrosel{
@@ -63,9 +68,41 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
-    max-width: 400px;
-    max-height: 400px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     object-position: 70%;
+    border: 4px solid black;
+}
+
+.sobre{
+
+    background-color: #E09809;
+    border: 3px solid black;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;   
+}
+
+.about{
+    display: flex;
+
+}
+
+.sobre p{
+    line-height: 38px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    
+}
+
+.sobre img{
+    width: 400px;
+    height: 400px; 
+    object-fit: cover;
+    object-position: 60%; 
+    border-radius: 10px;
     border: 4px solid black;
 }
