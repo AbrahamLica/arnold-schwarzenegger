@@ -91,12 +91,35 @@
 
 }
 
+@media (max-width: 525px) {
+    .sobre img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+
+}
+
 @media (max-width: 420px) {
     .introducao img{
         width: 200px;
         height: 350px;
         object-fit: cover;
         object-position: top;
+    }
+
+    .sobre img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .carrosel img{
+        width: 200px;
+        height: 200px;
     }
 
     .title{
